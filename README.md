@@ -1,79 +1,79 @@
 # 📊 PhonePe Transaction & User Analytics Dashboard
 
 ## 📌 Project Overview
-An interactive Power BI dashboard analyzing **300,000+ transactions** worth **₹3.47 Billion**, with **108,000 users** and a **96% success rate**.  
-The dashboard provides insights into user demographics, service adoption, and transaction trends to support business intelligence.
-
+Developed an interactive Power BI dashboard to analyze PhonePe transaction and user data. The dashboard provides insights into transaction performance, user demographics, service utilization, customer behavior, and growth trends through dynamic KPIs and visualizations.
 ---
 
-## 🚀 Key Highlights
-- **KPIs:**  
-  - Total Transaction Value: ₹3.47B  
-  - Total Transactions: 300K  
-  - Total Users: 108K  
-  - Success Rate: 96%  
-  - Transaction Value MoM Growth: 8.98%  
-  - Transaction Count MoM Growth: 8.97%  
+## 🎯 Objectives
+- Analyze transaction volume and transaction value trends.
+- Understand user behavior across different age groups.
+- Monitor transaction success rates and monthly growth.
+- Identify top customers and high-performing services.
+- Generate actionable business recommendations.
 
-- **Demographics:**  
-  - Gen X: 113K transactions, 112.73K users (37.58%)  
-  - Millennials: 111K transactions, 111.22K users (37.07%)  
-  - Gen Z: 62K transactions, 62.33K users (20.78%)  
-  - Boomers: 14K transactions  
+## 🛠️ Tools & Technologies
+- Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Data Visualization
 
-- **Service Insights:**  
-  - Money Transfer: 150K (50%)  
-  - Insurance: 50K (16.67%)  
-  - Loans: 50K (16.67%)  
-  - Recharge: 50K (16.67%)  
+## 📊 Key Metrics
+- Total Transaction Value: ₹3.47 Billion
+- Total Transactions: 300K
+- Total Users: 108K
+- Transaction Success Rate: 96%
+- Transaction Value MoM Growth: 8.98%
+- Transaction Count MoM Growth: 8.97%
 
-- **Usage Trends:**  
-  - Weekday Transactions: 215K (71.6%)  
-  - Weekend Transactions: 85K (28.4%)  
-  - Quarterly Transactions: Q3 – 75K, Q4 – 50K, Q2 – 25K, Q1 – 20K  
+## 📈 Dashboard Features
+- KPI Cards for Transaction Value, Transactions, Users, and Success Rate.
+- Monthly and Quarterly Transaction Trend Analysis.
+- Age Group-wise Transaction Analysis.
+- Service-wise Transaction Distribution.
+- Weekday vs Weekend Transaction Comparison.
+- Top 5 Customers by Transaction Value.
+- Interactive Filters for Age Group, Month, Service Type, and Payment Status.
 
-- **Top Customers by Transaction Value:**  
-  - Michael S.  
-  - Jennifer L.  
-  - Michael B.  
-  - Christopher P.  
+## 🔍 Key Insights
+- Gen X and Millennials contribute the highest transaction volume.
+- Money Transfer is the most frequently used service.
+- Weekday transactions account for the majority of platform activity.
+- Transaction performance remains consistent throughout the year.
+- A small group of customers generates a significant share of transaction value.
 
----
+## 💡 Business Recommendations
+- Increase weekend engagement through cashback and promotional campaigns.
+- Focus marketing efforts on Gen X and Millennial users.
+- Improve adoption of Insurance and Loan services through targeted promotions.
+- Introduce loyalty programs for high-value customers.
+- Monitor transaction failures to maintain a high success rate.
 
-## 🛠️ Measures Implemented
-- Success Rate  
-- Total Transactions  
-- Total Users  
-- Transaction Value MOM%  
-- Total Transactions MOM%  
-- Successful Transactions  
-- Monthly & Quarterly Trends  
+## 📂 Data Model
+- Users Table containing demographic information.
+- Transactions Table containing transaction details.
+- Date Table for time intelligence analysis.
+- Relationships built using a star schema model.
+- DAX measures created for KPI tracking and growth analysis.
 
----
+## 🚀 Skills Demonstrated
+- Data Analysis
+- Power BI Dashboard Development
+- DAX Calculations
+- Data Modeling
+- KPI Development
+- Business Intelligence
+- Data Visualization
+- Insight Generation
+- Trend Analysis
 
-## 📈 Visualizations
-- Line Chart: Monthly transactions  
-- Area Chart: Quarterly transactions  
-- Pie/Donut Charts: Age group, service type, weekday vs. weekend usage  
-- Bar Charts: Service type breakdown, top 5 customers  
+## 📷 Dashboard Preview
+[PhonePe Dashboard](
 
----
-
-## 🎯 Impact
-- Identified **Gen X & Millennials driving ~75% of activity**.  
-- Highlighted **service adoption trends** (Money Transfer dominates at 50%).  
-- Delivered **actionable insights** into customer behavior, reliability, and growth patterns.  
-- Strengthened PhonePe’s **business intelligence capabilities** with dynamic measures and KPIs.  
-
----
-
-## 📂 Repository Contents
-- `PhonePe_Dashboard.pbix` → Power BI file  
-- `README.md` → Documentation  
-- Dashboard screenshots  
-
----
-
-## 📬 Contact
+## 👤 Author
+- Priyanka Mali
+- M.Sc. Applied Statistics & Informatics
+- Aspiring Data Analyst
+- Skilled in Power BI, SQL, Python, and Excel
 Developed by **Priyanka Mali**  
 📧 malipriyanka2211@gmail.com
