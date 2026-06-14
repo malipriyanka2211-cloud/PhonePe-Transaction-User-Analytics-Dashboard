@@ -2,7 +2,43 @@
 
 ## 📌 Project Overview
 Developed an interactive Power BI dashboard to analyze PhonePe transaction and user data. The dashboard provides insights into transaction performance, user demographics, service utilization, customer behavior, and growth trends through dynamic KPIs and visualizations.
----
+
+## 📂 Dataset Information
+
+- The dataset consists of user and transaction data generated to simulate PhonePe platform activity.
+- Contains over **300,000 transactions** and **108,000 unique users**.
+- Includes transaction details such as amount, service type, payment status, transaction date, and customer information.
+- User data includes demographic attributes such as age and age group for behavioral analysis.
+- A dedicated Date Table was created to support time intelligence calculations and trend analysis.
+- Data was cleaned, transformed, and modeled using Power Query and Power BI Data Model.
+
+### Tables Used
+
+#### Users Table
+- User_ID
+- Name
+- Age
+- Age Group
+- Join Date
+
+#### Transactions Table
+- Transaction_ID
+- User_ID
+- Amount
+- Date
+- Service
+- Service Type
+- Payment Status
+- Transaction Reason
+
+#### Date Table
+- Date
+- Month
+- Quarter
+- Year
+- Weekday
+- Weekend Flag
+- Month Number
 
 ## 🎯 Objectives
 - Analyze transaction volume and transaction value trends.
@@ -68,7 +104,7 @@ Developed an interactive Power BI dashboard to analyze PhonePe transaction and u
 - Trend Analysis
 
 ## 📷 Dashboard Preview
-[PhonePe Dashboard](
+[PhonePe Dashboard](https://github.com/malipriyanka2211-cloud/PhonePe-Transaction-User-Analytics-Dashboard/blob/main/PhonePe%20Dashboard.png)
 
 ## 👤 Author
 - Priyanka Mali
